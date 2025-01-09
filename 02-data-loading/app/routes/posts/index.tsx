@@ -15,7 +15,7 @@ export default function Posts() {
   return (
     <main className="min-h-screen bg-gray-100 p-6">
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
-        <h1 className="text-2xl font-bold text-gray-800 mb-4">Posts</h1>
+        <h1 className="text-2xl font-bold text-gray-800 mb-4">Blog</h1>
         <ul className="space-y-4">
           {posts.map((post) => (
             <li key={post.slug} className="border-b pb-2 last:border-none">
